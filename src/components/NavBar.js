@@ -13,7 +13,7 @@ function NavBar() {
     color: "white",
   };
 
-  return <div>
+  return <div className="navbar">
     <NavLink to='/' exact style={linkStyles} >Home</NavLink>
     <NavLink to='/movies' exact style={linkStyles} >Movies</NavLink>
     <NavLink to='/directors' exact style={linkStyles} >Directors</NavLink>
